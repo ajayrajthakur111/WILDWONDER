@@ -1,0 +1,40 @@
+@media (max-width: 767px) {
+  .product-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .product-left,
+  .product-right {
+    width: 100%;
+    position: relative;
+  }
+  .product-right {
+    padding-top: 20px;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .desktop-menu {
+    display: none;
+  }
+  .desktop-icons {
+    display: none;
+  }
+  .mobile-icons {
+    display: flex;
+  }
+  .header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .recommendations-desktop {
+    display: none;
+  }
+  .recommendations-mobile {
+    display: block;
+  }
+}

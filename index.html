@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Header Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="announcement-bar">
+      <p>Cyber Monday Free Reusable Tote with Every Order</p>
+    </div>
+    <div class="header-container">
+      <div class="header-left">
+        <button class="hamburger-menu">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" 
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+               stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+        <div class="desktop-menu">
+          <div class="shop-menu">
+            <div>SHOP</div>
+            <svg class="arrow-icon arrow-down-svg" width="12" height="12">
+              <path d="M1 3 L6 8 L11 3" stroke="black" fill="transparent" stroke-width="2"/>
+            </svg>
+            <div class="dropdown">
+              <a href="#">Learn Article 1</a>
+              <a href="#">Learn Article 2</a>
+              <a href="#">Learn Article 3</a>
+            </div>
+          </div>
+          <div class="bundles-menu">
+            <span>Bundles</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-center">
+        <img src="your-wildwonder-logo.png" alt="Wildwonder Logo">
+      </div>
+      <div class="header-right">
+        <div class="mobile-icons">
+          <svg width="20" height="20">
+            <path d="M12 12C14.2091 12 16 10.2091 16 8
+                     C16 5.79086 14.2091 4 12 4
+                     C9.79086 4 8 5.79086 8 8
+                     C8 10.2091 9.79086 12 12 12Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" 
+                  stroke-linejoin="round"/>
+            <path d="M5 20C5 16.134 8.13401 13 12 13
+                     C15.866 13 19 16.134 19 20"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round"/>
+          </svg>
+          <svg width="20" height="20">
+            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.5" 
+                    stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 16L20 20" stroke="currentColor" stroke-width="1.5" 
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg width="20" height="20">
+            <path d="M6 2L3 6V17C3 18.1046 3.89543 19 5 19
+                     H19C20.1046 19 21 18.1046 21 17V6L18 2H6Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" 
+                  stroke-linejoin="round"/>
+            <path d="M7 10H17" stroke="currentColor" stroke-width="1.5" 
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="desktop-icons">
+          <div class="learn-menu">
+            <span>Learn</span>
+            <svg class="arrow-icon arrow-down-svg" width="12" height="12">
+              <path d="M1 3 L6 8 L11 3" stroke="black" fill="transparent" stroke-width="2"/>
+            </svg>
+            <div class="dropdown">
+              <a href="#">Learn Article 1</a>
+              <a href="#">Learn Article 2</a>
+              <a href="#">Learn Article 3</a>
+            </div>
+          </div>
+          <div class="find-wildwonder-menu">
+            <span>FIND WILDWONDER</span>
+          </div>
+          <svg width="20" height="20">
+            <path d="M12 12C14.2091 12 16 10.2091 16 8
+                     C16 5.79086 14.2091 4 12 4
+                     C9.79086 4 8 5.79086 8 8
+                     C8 10.2091 9.79086 12 12 12Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" 
+                  stroke-linejoin="round"/>
+            <path d="M5 20C5 16.134 8.13401 13 12 13
+                     C15.866 13 19 16.134 19 20"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round"/>
+          </svg>
+          <svg width="20" height="20">
+            <path d="M6 2L3 6V17C3 18.1046 3.89543 19 5 19
+                     H19C20.1046 19 21 18.1046 21 17V6L18 2H6Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round"/>
+            <path d="M7 10H17" stroke="currentColor" stroke-width="1.5" 
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="product-container">
+      <div class="product-left">
+        <div class="main-image-container">
+          <img src="" alt="Main Product Image" class="main-image">
+          <video controlslist="nodownload nofullscreen noremoteplayback noplaybackrate" disablePictureInPicture class="main-video" width="400" height="400" controls style="display:none"></video>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail" data-index="0">
+            <img src="" alt="Thumbnail 1" class="thumbnail-image">
+          </div>
+          <div class="thumbnail" data-index="1">
+            <img src="" alt="Thumbnail 2" class="thumbnail-image">
+          </div>
+          <div class="thumbnail" data-index="2">
+            <img src="" alt="Thumbnail 3" class="thumbnail-image">
+            <div class="video-overlay" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" 
+                   viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 6.82v10.36c0 .79.88 1.22 1.51.87
+                         l5.9-3.17c.39-.21.39-.7.01-.91
+                         l-5.9-3.17a1 1 0 0 0-1.52.87z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-right">
+        <h1 class="product-title"></h1>
+        <div class="product_title_below_text">
+          <h6>
+            <span class="font-weight-600"></span> 
+            | 
+            <span class="font-weight-300"></span>
+          </h6>
+        </div>
+        <div class="product-review">
+          <span class="star-icons"></span>
+          <span class="review-count"></span>
+        </div>
+        <p class="product-description"></p>
+        <div class="choose-flavor-container">
+          <h5 class="choose-flavor-heading">CHOOSE YOUR FLAVOR:</h5>
+          <div class="flavor-options"></div>
+        </div>
+        <div class="purchase-options">
+          <div role="radiogroup" aria-label="Purchase options" class="purchase-options-group">
+            <div class="purchase-option purchase-option--onetime">
+              <input type="radio" 
+                     id="purchase-type-onetime" 
+                     name="purchase-type" 
+                     value="onetime" 
+                     class="purchase-option__radio" 
+                     checked>
+              <label for="purchase-type-onetime" 
+                     class="purchase-option__label text-label">
+                One-time purchase 
+                <span class="font-weight-300 js-variant-title">12 Pack</span>
+                <span class="variant_price_single">
+                  <span class="js-onetime-price product-amount">Rs. 3,690.93</span>
+                </span>
+              </label>
+            </div>
+            <div class="subscribe-option purchase-option--autodeliver">
+              <div class="subscribe-option__top">
+                <div class="subscribe-option__left">
+                  <input type="radio" 
+                         id="purchase-type-subscribe" 
+                         name="purchase-type" 
+                         value="subscribe" 
+                         class="subscribe-option__radio">
+                  <label for="purchase-type-subscribe" 
+                         class="subscribe-option__label text-label">
+                    Subscribe & Save
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAA
+                            HElEQVQI12P4//8/wygAAUYyCAoFAj5iYIAA7gAD1U0/s6AAAAAASUVORK5CYII=" 
+                         alt="sparkle" 
+                         style="width: 8px; margin-left: 5px; vertical-align: text-top;">
+                  </label>
+                </div>
+                <div class="subscribe-option__right">
+                  <span class="original-price">$ 3,690.93</span>
+                  <span class="discounted-price">$ 3,137.29</span>
+                </div>
+              </div>
+              <div class="subscribe-option__middle">
+                <select class="subscribe-option__dropdown">
+                  <option value="4">Delivery every 4 weeks - 15% off</option>
+                  <option value="6">Delivery every 6 weeks - 15% off</option>
+                  <option value="8">Delivery every 8 weeks - 15% off</option>
+                  <option value="10">Delivery every 10 weeks - 15% off</option>
+                  <option value="12">Delivery every 12 weeks - 15% off</option>
+                  <option value="2">Delivery every 2 weeks - 15% off</option>
+                </select>
+              </div>
+              <div class="subscribe-option__bottom">
+                <div class="subscribe-option__benefit">
+                  <span>✓</span> Change or cancel anytime
+                </div>
+                <div class="subscribe-option__benefit">
+                  <span>✓</span> Exclusive gifts + discounts
+                </div>
+                <div class="gift-section">
+                  <div class="gift-section__checkbox">
+                    <input type="checkbox" 
+                           id="is-gift" 
+                           class="gift-section__checkbox-input">
+                    <label for="is-gift" 
+                           class="gift-section__checkbox-label">
+                      Is this a gift?
+                    </label>
+                  </div>
+                  <div class="gift-section__form">
+                    <div class="gift-section__deliveries">
+                      <label for="number-of-deliveries" class="gift-section__title">
+                        NUMBER OF DELIVERIES
+                      </label>
+                      <div class="gift-section__select-wrapper">
+                        <select id="number-of-deliveries" 
+                                name="properties[_gift-deliveries]" 
+                                class="gift-section__select">
+                          <option value="2" selected>2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="gift-section__recipient">
+                      <div class="gift-section__to-label">TO</div>
+                      <input type="text" 
+                             name="properties[_gift-name]" 
+                             class="gift-section__input gift-section__input--text" 
+                             placeholder="Name (optional)">
+                      <input type="email" 
+                             name="properties[gift-email]" 
+                             class="gift-section__input gift-section__input--text" 
+                             placeholder="Email">
+                    </div>
+                    <div class="gift-section__message">
+                      <label for="gift-message" class="gift-section__title">
+                        MESSAGE (MAXIMUM 200 CHARACTERS)
+                      </label>
+                      <textarea id="gift-message" 
+                                name="properties[_gift-message]" 
+                                class="gift-section__textarea" 
+                                placeholder="Add a message (optional)">
+                      </textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="quantity-add-cart">
+          <div class="quantity-selector">
+            <button class="quantity-btn minus">-</button>
+            <input type="number" 
+                   value="1" 
+                   min="1" 
+                   class="quantity-input" 
+                   data-quantity="1">
+            <button class="quantity-btn plus">+</button>
+          </div>
+          <button class="add-to-cart-btn">ADD TO CART</button>
+        </div>
+        <div class="free-shipping-banner">
+          <img class="free-shipping-icon" 
+               alt="" 
+               src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Vector_Smart_Object_1.png?v=1698658748">
+          <div class="free-shipping-text">
+            Order 2+ for <span class="highlighted">FREE SHIPPING!</span>
+          </div>
+        </div>
+        <div class="tab-container">
+          <div class="tab-buttons">
+            <button class="tab-button active" 
+                    style="background-color: #A6D8F7;" 
+                    onclick="showContent('benefits')">
+              BENEFITS
+            </button>
+            <button class="tab-button" 
+                    style="background-color: #A8DE78;" 
+                    onclick="showContent('ingredients')">
+              INGREDIENTS
+            </button>
+            <button class="tab-button" 
+                    style="background-color: #FAE076;" 
+                    onclick="showContent('nutrition')">
+              NUTRITION FACTS
+            </button>
+          </div>
+          <div id="benefits" class="tab-content" style="background-color: #A6D8F7;">
+            <div class="benefits-svg">
+              <img src="https://drinkwildwonder.com/cdn/shop/files/Group_65.png?v=1708449515&width=150" 
+                   alt="USDA Organic Icon" width="70" height="70">
+              <div>CERTIFIED</div>
+              <div>ORGANIC</div>
+            </div>
+            <div class="benefits-svg">
+              <img src="https://drinkwildwonder.com/cdn/shop/files/probiotics_40314dfe-7c55-4822-a254-6e4b5f3ee88b.png?v=1708967690&width=150" 
+                   alt="Icon" width="70" height="70">
+              <div>1 BILLION</div>
+              <div>PROBIOTICS</div>
+            </div>
+            <div class="benefits-svg">
+              <img src="https://drinkwildwonder.com/cdn/shop/files/Fiber.png?v=1708967691&width=150" 
+                   alt="Dietary Icon" width="70" height="70"/>
+              <div>5g DIETARY</div>
+              <div>FIBER</div>
+            </div>
+            <div class="benefits-svg">
+              <img src="https://drinkwildwonder.com/cdn/shop/files/Sugar_5e41475b-e41d-4002-857b-dcf3fd24a07d.png?v=1708967690&width=150" 
+                   alt="cubes Icon" width="70" height="70"/>
+              <div>6g SUGAR</div>
+            </div>
+            <div class="benefits-svg">
+              <img src="https://drinkwildwonder.com/cdn/shop/files/gmo.png?v=1708967690&width=150"
+                   alt="GMO icon" width="70" height="70"/>
+              <div>GMO Free</div>
+            </div>
+            <div class="benefits-svg">
+              <img src="https://drinkwildwonder.com/cdn/shop/files/vegan_f7f171f8-a325-41c8-9792-4864061ac27c.png?v=1708967690&width=150" 
+                   alt="Vegan icon" width="70" height="70"/>
+              <div>Vegan</div>
+            </div>
+          </div>
+          <div id="ingredients" class="tab-content hidden" style="background-color: #A8DE78;">
+            <div class="ingredients-list">
+              Raspberry Lychee
+              Fresh Brewed Honeysuckle* (Filtered Water, Honeysuckle Flowers*), Raspberry Puree*, Agave Nectar*, Lychee Juice*, Jerusalem Artichoke*, Lemon Juice*, Raspberry Flavor*, Chicory Root Inulin, Lychee Flavor*, Monk Fruit Extract*, Live Probiotics (Bacillus subtilis) (*organic)
+            </div>
+          </div>
+          <div id="nutrition" class="tab-content hidden" style="background-color: #FAE076;">
+            <table class="nutrition-table">
+              <tr><td>Serving Size</td><td>1 can</td></tr>
+              <tr><td>Calories</td><td>40</td></tr>
+              <tr><td>Total Fat</td><td>0g</td></tr>
+              <tr><td>Sodium</td><td>0mg</td></tr>
+              <tr><td>Total Carbohydrates</td><td>12g</td></tr>
+              <tr><td>Dietary Fiber</td><td>5g</td></tr>
+              <tr><td>Total Sugars</td><td>6g</td></tr>
+              <tr><td>Protein</td><td>0g</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="recommendations-container">
+    <h2 class="recommendations-title">YOU MAY ALSO LIKE</h2>
+    <div class="recommendations-desktop">
+      <button class="nav-arrow prev" onclick="scrollDesktop(-1)">
+        <svg viewBox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/></svg>
+      </button>
+      <div class="desktop-carousel" id="desktopCarousel">
+        <div class="product-item">
+          <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Banana_1_400x400.png?v=1721349284" alt="Botanical Bouquet">
+          <div class="product-info">
+            <div class="product-name">BOTANICAL BOUQUET</div>
+            <div class="amount">₹ 3,866.69</div>
+            <button class="add-to-cart-btn">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Variety_Pack_-_Shark_Tank_2_400x400.png?v=1724416169" alt="Strawberry Passion">
+          <div class="product-info">
+            <div class="product-name">STRAWBERRY PASSION</div>
+            <div class="amount">₹ 3,690.93</div>
+            <button class="add-to-cart-btn">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Mango_1_400x400.png?v=1714540147" alt="Mango Gold">
+          <div class="product-info">
+            <div class="product-name">MANGO GOLD</div>
+            <div class="amount">₹ 3,690.93</div>
+            <button class="add-to-cart-btn">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/VarietyPack-BotanicalBundle_400x400.png?v=1714541381" alt="Pineapple Paradise">
+          <div class="product-info">
+            <div class="product-name">PINEAPPLE PARADISE</div>
+            <div class="amount">₹ 3,690.93</div>
+            <button class="add-to-cart-btn">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Guava_1_400x400.png?v=1714539969" alt="Guava Rose">
+          <div class="product-info">
+            <div class="product-name">GUAVA ROSE</div>
+            <div class="amount">₹ 3,690.93</div>
+            <button class="add-to-cart-btn">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Variety_Pack_-_6_Flavors_12_Cans_2_400x400.png?v=1724415930" alt="Botanical Bouquet">
+          <div class="product-info">
+            <div class="product-name">BOTANICAL BOUQUET</div>
+            <div class="amount">₹ 3,866.69</div>
+            <button class="add-to-cart-btn">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <button class="nav-arrow next" onclick="scrollDesktop(1)">
+        <svg viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41L10 6l6 6-6 6z"/></svg>
+      </button>
+    </div>
+    <div class="recommendations-mobile">
+      <div class="mobile-carousel-wrapper">
+        <button class="nav-arrow prev" onclick="scrollMobile(-1)">
+          <svg viewBox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/></svg>
+        </button>
+        <div class="mobile-carousel" id="mobileCarousel">
+          <div class="product-item">
+            <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/VarietyPack-BotanicalBundle_400x400.png?v=1714541381" width="400" height="400" alt="Botanical Bouquet">
+            <div class="product-info">
+              <div class="product-name">BOTANICAL BOUQUET</div>
+              <div class="amount">₹ 3,866.69</div>
+              <button class="add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="product-item">
+            <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/VarietyPack-BotanicalBundle_400x400.png?v=1714541381" width="400" height="400" alt="Strawberry Passion">
+            <div class="product-info">
+              <div class="product-name">STRAWBERRY PASSION</div>
+              <div class="amount">₹ 3,690.93</div>
+              <button class="add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="product-item">
+            <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Pineapple_1_green_400x400.png?v=1722475205" width="400" height="400" alt="Mango Gold">
+            <div class="product-info">
+              <div class="product-name">MANGO GOLD</div>
+              <div class="amount">₹ 3,690.93</div>
+              <button class="add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="product-item">
+            <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Guava_1_400x400.png?v=1714539969" width="400" height="400" alt="Pineapple Paradise">
+            <div class="product-info">
+              <div class="product-name">PINEAPPLE PARADISE</div>
+              <div class="amount">₹ 3,690.93</div>
+              <button class="add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="product-item">
+            <img src="https://cdn.shopify.com/s/files/1/0264/8952/0171/files/Banana_1_400x400.png?v=1721349284" width="400" height="400" alt="Guava Rose">
+            <div class="product-info">
+              <div class="product-name">GUAVA ROSE</div>
+              <div class="amount">₹ 3,690.93</div>
+              <button class="add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <button class="nav-arrow next" onclick="scrollMobile(1)">
+          <svg viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41L10 6l6 6-6 6z"/></svg>
+        </button>
+      </div>
+      <div class="mobile-indicators" id="mobileIndicators"></div>
+    </div>
+  </div>
+</body>
+</html>
